@@ -1,0 +1,3 @@
+[submodule "src/libraries/brigid"]
+	path = src/libraries/brigid
+	url = https://github.com/brigid-jp/brigid.git

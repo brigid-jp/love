@@ -63,6 +63,9 @@ extern "C"
 #ifdef LOVE_ENABLE_LUA53
 #	include "libraries/lua53/lutf8lib.h"
 #endif
+#ifdef LOVE_ENABLE_BRIGID
+#	include "libraries/brigid/brigid.hpp"
+#endif
 
 // For love::graphics::setGammaCorrect.
 #ifdef LOVE_ENABLE_GRAPHICS
@@ -477,6 +480,9 @@ int luaopen_love(lua_State *L)
 #endif
 #ifdef LOVE_ENABLE_LUA53
 	love::luax_preload(L, luaopen_luautf8, "utf8");
+#endif
+#ifdef LOVE_ENABLE_BRIGID
+	love::luax_preload(L, luaopen_brigid, "brigid");
 #endif
 
 	return 1;
