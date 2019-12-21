@@ -181,19 +181,28 @@ static int dropFileEventFilter(void *userdata, SDL_Event *event)
 			documents = documents.stringByStandardizingPath.stringByResolvingSymlinksInPath;
 			fname = fname.stringByStandardizingPath.stringByResolvingSymlinksInPath;
 
-			// Is the file inside the Documents directory?
-			if ([fname hasPrefix:documents])
-			{
-				LOVETableViewController *vc = (__bridge LOVETableViewController *) userdata;
-
-				// Update the game list.
-				NSArray *games = getLovesInDocuments();
-				vc.gameList = [[NSMutableArray alloc] initWithArray:games copyItems:YES];
-				[vc.tableView reloadData];
-
-				SDL_free(event->drop.file);
-				return 0;
+			if (![fname hasPrefix:documents]) {
+				NSString* to = [documents stringByAppendingPathComponent:[fname lastPathComponent]];
+				NSLog(@"moveItemAtPath %@, %@", fname, to);
+				NSError* error = nil;
+				[fmanager moveItemAtPath:fname
+								  toPath:to
+								   error:&error];
+				if (error) {
+					NSLog(@"moveItemAtPath error %@", [error description]);
+					error = nil;
+				}
 			}
+
+			LOVETableViewController *vc = (__bridge LOVETableViewController *) userdata;
+
+			// Update the game list.
+			NSArray *games = getLovesInDocuments();
+			vc.gameList = [[NSMutableArray alloc] initWithArray:games copyItems:YES];
+			[vc.tableView reloadData];
+
+			SDL_free(event->drop.file);
+			return 0;
 		}
 
 		return 1;
