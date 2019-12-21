@@ -64,6 +64,42 @@
 		217DFC101D9F6D490055D849 /* url.lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 217DFBD41D9F6D490055D849 /* url.lua.h */; };
 		217DFC111D9F6D490055D849 /* usocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 217DFBD51D9F6D490055D849 /* usocket.c */; };
 		217DFC121D9F6D490055D849 /* usocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 217DFBD61D9F6D490055D849 /* usocket.h */; };
+		A77A0FD923AE66C3003D1C4B /* stdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD123AE66C2003D1C4B /* stdio.cpp */; };
+		A77A0FDA23AE66C3003D1C4B /* stdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD123AE66C2003D1C4B /* stdio.cpp */; };
+		A77A0FDB23AE66C3003D1C4B /* crypto_apple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD223AE66C2003D1C4B /* crypto_apple.cpp */; };
+		A77A0FDC23AE66C3003D1C4B /* crypto_apple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD223AE66C2003D1C4B /* crypto_apple.cpp */; };
+		A77A0FDD23AE66C3003D1C4B /* http_apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD323AE66C3003D1C4B /* http_apple.mm */; };
+		A77A0FDE23AE66C3003D1C4B /* http_apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD323AE66C3003D1C4B /* http_apple.mm */; };
+		A77A0FDF23AE66C3003D1C4B /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD423AE66C3003D1C4B /* version.cpp */; };
+		A77A0FE023AE66C3003D1C4B /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD423AE66C3003D1C4B /* version.cpp */; };
+		A77A0FE123AE66C3003D1C4B /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD523AE66C3003D1C4B /* http.cpp */; };
+		A77A0FE223AE66C3003D1C4B /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD523AE66C3003D1C4B /* http.cpp */; };
+		A77A0FE323AE66C3003D1C4B /* http_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD623AE66C3003D1C4B /* http_impl.cpp */; };
+		A77A0FE423AE66C3003D1C4B /* http_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD623AE66C3003D1C4B /* http_impl.cpp */; };
+		A77A0FE523AE66C3003D1C4B /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD723AE66C3003D1C4B /* crypto.cpp */; };
+		A77A0FE623AE66C3003D1C4B /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD723AE66C3003D1C4B /* crypto.cpp */; };
+		A77A0FE723AE66C3003D1C4B /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD823AE66C3003D1C4B /* error.cpp */; };
+		A77A0FE823AE66C3003D1C4B /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD823AE66C3003D1C4B /* error.cpp */; };
+		A77A0FF323AE66E7003D1C4B /* module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FE923AE66E6003D1C4B /* module.cpp */; };
+		A77A0FF423AE66E7003D1C4B /* module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FE923AE66E6003D1C4B /* module.cpp */; };
+		A77A0FF523AE66E7003D1C4B /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEA23AE66E6003D1C4B /* crypto.cpp */; };
+		A77A0FF623AE66E7003D1C4B /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEA23AE66E6003D1C4B /* crypto.cpp */; };
+		A77A0FF723AE66E7003D1C4B /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEB23AE66E6003D1C4B /* data.cpp */; };
+		A77A0FF823AE66E7003D1C4B /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEB23AE66E6003D1C4B /* data.cpp */; };
+		A77A0FF923AE66E7003D1C4B /* view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEC23AE66E6003D1C4B /* view.cpp */; };
+		A77A0FFA23AE66E7003D1C4B /* view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEC23AE66E6003D1C4B /* view.cpp */; };
+		A77A0FFB23AE66E7003D1C4B /* scope_exit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FED23AE66E6003D1C4B /* scope_exit.cpp */; };
+		A77A0FFC23AE66E7003D1C4B /* scope_exit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FED23AE66E6003D1C4B /* scope_exit.cpp */; };
+		A77A0FFD23AE66E7003D1C4B /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEE23AE66E6003D1C4B /* version.cpp */; };
+		A77A0FFE23AE66E7003D1C4B /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEE23AE66E6003D1C4B /* version.cpp */; };
+		A77A0FFF23AE66E7003D1C4B /* data_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEF23AE66E6003D1C4B /* data_writer.cpp */; };
+		A77A100023AE66E7003D1C4B /* data_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEF23AE66E6003D1C4B /* data_writer.cpp */; };
+		A77A100123AE66E7003D1C4B /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF023AE66E7003D1C4B /* http.cpp */; };
+		A77A100223AE66E7003D1C4B /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF023AE66E7003D1C4B /* http.cpp */; };
+		A77A100323AE66E7003D1C4B /* file_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF123AE66E7003D1C4B /* file_writer.cpp */; };
+		A77A100423AE66E7003D1C4B /* file_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF123AE66E7003D1C4B /* file_writer.cpp */; };
+		A77A100523AE66E7003D1C4B /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF223AE66E7003D1C4B /* common.cpp */; };
+		A77A100623AE66E7003D1C4B /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF223AE66E7003D1C4B /* common.cpp */; };
 		FA0A3A5F23366CE9001C269E /* floattypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0A3A5D23366CE9001C269E /* floattypes.h */; };
 		FA0A3A6023366CE9001C269E /* floattypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0A3A5E23366CE9001C269E /* floattypes.cpp */; };
 		FA0A3A6123366CE9001C269E /* floattypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0A3A5E23366CE9001C269E /* floattypes.cpp */; };
@@ -1280,6 +1316,24 @@
 		217DFBD51D9F6D490055D849 /* usocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usocket.c; sourceTree = "<group>"; };
 		217DFBD61D9F6D490055D849 /* usocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usocket.h; sourceTree = "<group>"; };
 		503971A86B7167A91B670FBA /* boot.lua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boot.lua.h; sourceTree = "<group>"; };
+		A77A0FD123AE66C2003D1C4B /* stdio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdio.cpp; path = brigid/src/lib/stdio.cpp; sourceTree = "<group>"; };
+		A77A0FD223AE66C2003D1C4B /* crypto_apple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crypto_apple.cpp; path = brigid/src/lib/crypto_apple.cpp; sourceTree = "<group>"; };
+		A77A0FD323AE66C3003D1C4B /* http_apple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = http_apple.mm; path = brigid/src/lib/http_apple.mm; sourceTree = "<group>"; };
+		A77A0FD423AE66C3003D1C4B /* version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = version.cpp; path = brigid/src/lib/version.cpp; sourceTree = "<group>"; };
+		A77A0FD523AE66C3003D1C4B /* http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = http.cpp; path = brigid/src/lib/http.cpp; sourceTree = "<group>"; };
+		A77A0FD623AE66C3003D1C4B /* http_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = http_impl.cpp; path = brigid/src/lib/http_impl.cpp; sourceTree = "<group>"; };
+		A77A0FD723AE66C3003D1C4B /* crypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crypto.cpp; path = brigid/src/lib/crypto.cpp; sourceTree = "<group>"; };
+		A77A0FD823AE66C3003D1C4B /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = brigid/src/lib/error.cpp; sourceTree = "<group>"; };
+		A77A0FE923AE66E6003D1C4B /* module.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = module.cpp; path = brigid/src/lua/module.cpp; sourceTree = "<group>"; };
+		A77A0FEA23AE66E6003D1C4B /* crypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crypto.cpp; path = brigid/src/lua/crypto.cpp; sourceTree = "<group>"; };
+		A77A0FEB23AE66E6003D1C4B /* data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = data.cpp; path = brigid/src/lua/data.cpp; sourceTree = "<group>"; };
+		A77A0FEC23AE66E6003D1C4B /* view.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = view.cpp; path = brigid/src/lua/view.cpp; sourceTree = "<group>"; };
+		A77A0FED23AE66E6003D1C4B /* scope_exit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scope_exit.cpp; path = brigid/src/lua/scope_exit.cpp; sourceTree = "<group>"; };
+		A77A0FEE23AE66E6003D1C4B /* version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = version.cpp; path = brigid/src/lua/version.cpp; sourceTree = "<group>"; };
+		A77A0FEF23AE66E6003D1C4B /* data_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = data_writer.cpp; path = brigid/src/lua/data_writer.cpp; sourceTree = "<group>"; };
+		A77A0FF023AE66E7003D1C4B /* http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = http.cpp; path = brigid/src/lua/http.cpp; sourceTree = "<group>"; };
+		A77A0FF123AE66E7003D1C4B /* file_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = file_writer.cpp; path = brigid/src/lua/file_writer.cpp; sourceTree = "<group>"; };
+		A77A0FF223AE66E7003D1C4B /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = common.cpp; path = brigid/src/lua/common.cpp; sourceTree = "<group>"; };
 		FA08F5AE16C7525600F007B5 /* liblove-macosx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "liblove-macosx.plist"; path = "macosx/liblove-macosx.plist"; sourceTree = "<group>"; };
 		FA0A3A5D23366CE9001C269E /* floattypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floattypes.h; sourceTree = "<group>"; };
 		FA0A3A5E23366CE9001C269E /* floattypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = floattypes.cpp; sourceTree = "<group>"; };
@@ -2138,6 +2192,55 @@
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
+		A77A0FCD23AE6683003D1C4B /* brigid */ = {
+			isa = PBXGroup;
+			children = (
+				A77A0FCE23AE668B003D1C4B /* src */,
+			);
+			name = brigid;
+			sourceTree = "<group>";
+		};
+		A77A0FCE23AE668B003D1C4B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A77A0FCF23AE6691003D1C4B /* lib */,
+				A77A0FD023AE6696003D1C4B /* lua */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A77A0FCF23AE6691003D1C4B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A77A0FD223AE66C2003D1C4B /* crypto_apple.cpp */,
+				A77A0FD723AE66C3003D1C4B /* crypto.cpp */,
+				A77A0FD823AE66C3003D1C4B /* error.cpp */,
+				A77A0FD323AE66C3003D1C4B /* http_apple.mm */,
+				A77A0FD623AE66C3003D1C4B /* http_impl.cpp */,
+				A77A0FD523AE66C3003D1C4B /* http.cpp */,
+				A77A0FD123AE66C2003D1C4B /* stdio.cpp */,
+				A77A0FD423AE66C3003D1C4B /* version.cpp */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A77A0FD023AE6696003D1C4B /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				A77A0FF223AE66E7003D1C4B /* common.cpp */,
+				A77A0FEA23AE66E6003D1C4B /* crypto.cpp */,
+				A77A0FEF23AE66E6003D1C4B /* data_writer.cpp */,
+				A77A0FEB23AE66E6003D1C4B /* data.cpp */,
+				A77A0FF123AE66E7003D1C4B /* file_writer.cpp */,
+				A77A0FF023AE66E7003D1C4B /* http.cpp */,
+				A77A0FE923AE66E6003D1C4B /* module.cpp */,
+				A77A0FED23AE66E6003D1C4B /* scope_exit.cpp */,
+				A77A0FEE23AE66E6003D1C4B /* version.cpp */,
+				A77A0FEC23AE66E6003D1C4B /* view.cpp */,
+			);
+			name = lua;
+			sourceTree = "<group>";
+		};
 		FA08F5AC16C751BA00F007B5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2209,6 +2312,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0B794E1A958EA3000E1D17 /* Box2D */,
+				A77A0FCD23AE6683003D1C4B /* brigid */,
 				FA0B79B41A958EA3000E1D17 /* ddsparse */,
 				FA4C22CF22C2E11000BFBB7C /* dr_flac */,
 				FA0B79B81A958EA3000E1D17 /* enet */,
@@ -4207,6 +4311,7 @@
 				FA0B7EC61A95902C000E1D17 /* ThreadModule.cpp in Sources */,
 				FA0B7D2C1A95902C000E1D17 /* wrap_Rasterizer.cpp in Sources */,
 				FADF54081E3D78F700012CC0 /* Video.cpp in Sources */,
+				A77A0FF423AE66E7003D1C4B /* module.cpp in Sources */,
 				FA9D8DD81DEF8411002CD881 /* Data.cpp in Sources */,
 				FA0B7E8F1A95902C000E1D17 /* GmeDecoder.cpp in Sources */,
 				FADF542B1E3DAADA00012CC0 /* wrap_Mesh.cpp in Sources */,
@@ -4255,6 +4360,7 @@
 				FA24348521D401CB00B8918A /* pch.cpp in Sources */,
 				FA0B7DEC1A95902C000E1D17 /* Cursor.cpp in Sources */,
 				FA0B7D871A95902C000E1D17 /* ImageData.cpp in Sources */,
+				A77A100423AE66E7003D1C4B /* file_writer.cpp in Sources */,
 				FA0B7E101A95902C000E1D17 /* FrictionJoint.cpp in Sources */,
 				FAF140741E20934C00F898D2 /* intermOut.cpp in Sources */,
 				FA620A361AA2F8DB005DB4C2 /* wrap_Texture.cpp in Sources */,
@@ -4328,17 +4434,20 @@
 				FA0B7DC51A95902C000E1D17 /* wrap_JoystickModule.cpp in Sources */,
 				FA0B7E701A95902C000E1D17 /* wrap_RopeJoint.cpp in Sources */,
 				FA24348821D401CB00B8918A /* attribute.cpp in Sources */,
+				A77A0FF823AE66E7003D1C4B /* data.cpp in Sources */,
 				FACA02FC1F5E39810084B28F /* wrap_CompressedData.cpp in Sources */,
 				FAF140AD1E20934C00F898D2 /* Versions.cpp in Sources */,
 				FA0B7A7B1A958EA3000E1D17 /* b2Contact.cpp in Sources */,
 				FA0B7A6F1A958EA3000E1D17 /* b2WorldCallbacks.cpp in Sources */,
 				FA0B793C1A958E3B000E1D17 /* runtime.cpp in Sources */,
 				FAF140DC1E20934C00F898D2 /* InitializeDll.cpp in Sources */,
+				A77A100623AE66E7003D1C4B /* common.cpp in Sources */,
 				FA0B7DBC1A95902C000E1D17 /* Joystick.cpp in Sources */,
 				FA0B7DAF1A95902C000E1D17 /* wrap_CompressedImageData.cpp in Sources */,
 				FA0B7A481A958EA3000E1D17 /* b2PolygonShape.cpp in Sources */,
 				FA0B7A991A958EA3000E1D17 /* b2MotorJoint.cpp in Sources */,
 				FA0B7AD51A958EA3000E1D17 /* unix.c in Sources */,
+				A77A0FE023AE66C3003D1C4B /* version.cpp in Sources */,
 				FAB17BE71ABFAA9000F9BA27 /* lz4.c in Sources */,
 				FAE64A902071364800BC7981 /* physfs_unicode.c in Sources */,
 				FA4F2BE71DE6650D00CA37D7 /* Transform.cpp in Sources */,
@@ -4362,6 +4471,7 @@
 				FA0B7DF21A95902C000E1D17 /* wrap_Cursor.cpp in Sources */,
 				FA0B7E011A95902C000E1D17 /* CircleShape.cpp in Sources */,
 				FAE64A8C2071363100BC7981 /* physfs_byteorder.c in Sources */,
+				A77A0FFA23AE66E7003D1C4B /* view.cpp in Sources */,
 				FA0B7E461A95902C000E1D17 /* wrap_Contact.cpp in Sources */,
 				FA0B7D161A95902C000E1D17 /* Font.cpp in Sources */,
 				FA0B7EB61A95902C000E1D17 /* wrap_System.cpp in Sources */,
@@ -4422,8 +4532,10 @@
 				FA0B7E581A95902C000E1D17 /* wrap_Joint.cpp in Sources */,
 				FAECA1B51F31648A0095D008 /* FormatHandler.cpp in Sources */,
 				FA4F2C0A1DE936E600CA37D7 /* mime.c in Sources */,
+				A77A0FDE23AE66C3003D1C4B /* http_apple.mm in Sources */,
 				FA0B7E311A95902C000E1D17 /* Shape.cpp in Sources */,
 				FA0B7E491A95902C000E1D17 /* wrap_DistanceJoint.cpp in Sources */,
+				A77A0FDC23AE66C3003D1C4B /* crypto_apple.cpp in Sources */,
 				FA0B7A391A958EA3000E1D17 /* b2DynamicTree.cpp in Sources */,
 				FA4F2C101DE936FE00CA37D7 /* udp.c in Sources */,
 				FAE64A8F2071364200BC7981 /* physfs_platform_unix.c in Sources */,
@@ -4453,6 +4565,7 @@
 				FAF1406D1E20934C00F898D2 /* InfoSink.cpp in Sources */,
 				FAF1407B1E20934C00F898D2 /* limits.cpp in Sources */,
 				FA0B7ABB1A958EA3000E1D17 /* callbacks.c in Sources */,
+				A77A0FF623AE66E7003D1C4B /* crypto.cpp in Sources */,
 				FA0B7A721A958EA3000E1D17 /* b2ChainAndCircleContact.cpp in Sources */,
 				FA0B7EAA1A95902C000E1D17 /* wrap_Sound.cpp in Sources */,
 				FA0B79391A958E3B000E1D17 /* Reference.cpp in Sources */,
@@ -4461,11 +4574,13 @@
 				FADF543C1E3DAFF700012CC0 /* wrap_Graphics.cpp in Sources */,
 				FA0B7A331A958EA3000E1D17 /* b2Collision.cpp in Sources */,
 				FAE64A942071365100BC7981 /* physfs_platform_os2.c in Sources */,
+				A77A100023AE66E7003D1C4B /* data_writer.cpp in Sources */,
 				FA0B7E5E1A95902C000E1D17 /* wrap_MouseJoint.cpp in Sources */,
 				FA0B7B3B1A958EA3000E1D17 /* wuff_memory.c in Sources */,
 				FA0B79411A958E3B000E1D17 /* utf8.cpp in Sources */,
 				FAE64A862071363100BC7981 /* physfs_archiver_qpak.c in Sources */,
 				FA0B7ADF1A958EA3000E1D17 /* lodepng.cpp in Sources */,
+				A77A0FFE23AE66E7003D1C4B /* version.cpp in Sources */,
 				FA0B7D341A95902C000E1D17 /* Canvas.cpp in Sources */,
 				FAF140761E20934C00F898D2 /* IntermTraverse.cpp in Sources */,
 				FA0B7E8C1A95902C000E1D17 /* FLACDecoder.cpp in Sources */,
@@ -4479,6 +4594,7 @@
 				FA0B7E861A95902C000E1D17 /* CoreAudioDecoder.cpp in Sources */,
 				FA0B7E761A95902C000E1D17 /* wrap_WeldJoint.cpp in Sources */,
 				FA0B7D561A95902C000E1D17 /* Buffer.cpp in Sources */,
+				A77A0FE623AE66C3003D1C4B /* crypto.cpp in Sources */,
 				FA0B7A6C1A958EA3000E1D17 /* b2World.cpp in Sources */,
 				FA1557C51CE90BD900AFF582 /* EXRHandler.cpp in Sources */,
 				FA57FB991AE1993600F2AD6D /* noise1234.cpp in Sources */,
@@ -4489,6 +4605,7 @@
 				FA0B7AB21A958EA3000E1D17 /* b2Rope.cpp in Sources */,
 				FAB17BF61ABFC4B100F9BA27 /* lz4hc.c in Sources */,
 				FAF1408F1E20934C00F898D2 /* PpContext.cpp in Sources */,
+				A77A0FE823AE66C3003D1C4B /* error.cpp in Sources */,
 				FA0B7EA71A95902C000E1D17 /* wrap_Decoder.cpp in Sources */,
 				FA0B7E1C1A95902C000E1D17 /* MouseJoint.cpp in Sources */,
 				FA29C0061E12355B00268CD8 /* StreamBuffer.cpp in Sources */,
@@ -4511,6 +4628,7 @@
 				FA0B7E3A1A95902C000E1D17 /* World.cpp in Sources */,
 				FA0B79471A958E3B000E1D17 /* Vector.cpp in Sources */,
 				FAE64A832071363100BC7981 /* physfs_archiver_hog.c in Sources */,
+				A77A0FFC23AE66E7003D1C4B /* scope_exit.cpp in Sources */,
 				FAC756F71E4F99BC00B91289 /* Effect.cpp in Sources */,
 				FA0B7E7F1A95902C000E1D17 /* Joint.cpp in Sources */,
 				FA0B7DB21A95902C000E1D17 /* wrap_Image.cpp in Sources */,
@@ -4526,6 +4644,7 @@
 				FA0B7D431A95902C000E1D17 /* OpenGL.cpp in Sources */,
 				FA0B7DBF1A95902C000E1D17 /* JoystickModule.cpp in Sources */,
 				FAB2D5AB1AABDD8A008224A4 /* TrueTypeRasterizer.cpp in Sources */,
+				A77A0FDA23AE66C3003D1C4B /* stdio.cpp in Sources */,
 				FA0B7A9F1A958EA3000E1D17 /* b2PrismaticJoint.cpp in Sources */,
 				FA1BA0AD1E16F9EE00AA2803 /* wrap_Canvas.cpp in Sources */,
 				FAE64A822071363100BC7981 /* physfs_archiver_grp.c in Sources */,
@@ -4540,6 +4659,7 @@
 				FA0B7E9B1A95902C000E1D17 /* VorbisDecoder.cpp in Sources */,
 				FA0B7E4C1A95902C000E1D17 /* wrap_EdgeShape.cpp in Sources */,
 				FA0B7E251A95902C000E1D17 /* PrismaticJoint.cpp in Sources */,
+				A77A0FE423AE66C3003D1C4B /* http_impl.cpp in Sources */,
 				FA0B7A561A958EA3000E1D17 /* b2Settings.cpp in Sources */,
 				FA0B7E611A95902C000E1D17 /* wrap_Physics.cpp in Sources */,
 				FA4F2C041DE936C600CA37D7 /* buffer.c in Sources */,
@@ -4572,6 +4692,7 @@
 				FAF140891E20934C00F898D2 /* PoolAlloc.cpp in Sources */,
 				FA27B3B41B498151008A9DCE /* wrap_Video.cpp in Sources */,
 				FA1E88801DF363D400E808AA /* Filter.cpp in Sources */,
+				A77A0FE223AE66C3003D1C4B /* http.cpp in Sources */,
 				FA0B7AA81A958EA3000E1D17 /* b2RopeJoint.cpp in Sources */,
 				FA0B7ACC1A958EA3000E1D17 /* list.c in Sources */,
 				FACA02FD1F5E39840084B28F /* wrap_DataModule.cpp in Sources */,
@@ -4579,6 +4700,7 @@
 				FA0B79251A958E3B000E1D17 /* Exception.cpp in Sources */,
 				FA0B7D291A95902C000E1D17 /* wrap_GlyphData.cpp in Sources */,
 				FA0B7DE31A95902C000E1D17 /* wrap_RandomGenerator.cpp in Sources */,
+				A77A100223AE66E7003D1C4B /* http.cpp in Sources */,
 				FAE64A8E2071363A00BC7981 /* physfs_platform_posix.c in Sources */,
 				FA0B7AD71A958EA3000E1D17 /* win32.c in Sources */,
 				FA15DFB11F9B8D820042AB22 /* OggDemuxer.cpp in Sources */,
@@ -4598,6 +4720,7 @@
 				FA0B7EC51A95902C000E1D17 /* ThreadModule.cpp in Sources */,
 				FADF54071E3D78F700012CC0 /* Video.cpp in Sources */,
 				217DFC031D9F6D490055D849 /* timeout.c in Sources */,
+				A77A0FF323AE66E7003D1C4B /* module.cpp in Sources */,
 				FA9D8DD71DEF8411002CD881 /* Data.cpp in Sources */,
 				FADF542A1E3DAADA00012CC0 /* wrap_Mesh.cpp in Sources */,
 				FA0B7D2B1A95902C000E1D17 /* wrap_Rasterizer.cpp in Sources */,
@@ -4646,6 +4769,7 @@
 				FA24348421D401CB00B8918A /* pch.cpp in Sources */,
 				FA0B7E3F1A95902C000E1D17 /* wrap_ChainShape.cpp in Sources */,
 				FA0B7DEB1A95902C000E1D17 /* Cursor.cpp in Sources */,
+				A77A100323AE66E7003D1C4B /* file_writer.cpp in Sources */,
 				FA0B7D861A95902C000E1D17 /* ImageData.cpp in Sources */,
 				FA0B7A3E1A958EA3000E1D17 /* b2ChainShape.cpp in Sources */,
 				FAF140731E20934C00F898D2 /* intermOut.cpp in Sources */,
@@ -4719,17 +4843,20 @@
 				FA0B7DC41A95902C000E1D17 /* wrap_JoystickModule.cpp in Sources */,
 				FA0B7E6F1A95902C000E1D17 /* wrap_RopeJoint.cpp in Sources */,
 				FA24348721D401CB00B8918A /* attribute.cpp in Sources */,
+				A77A0FF723AE66E7003D1C4B /* data.cpp in Sources */,
 				FA0B7AB51A958EA3000E1D17 /* ddsparse.cpp in Sources */,
 				FACA02F41F5E396B0084B28F /* wrap_CompressedData.cpp in Sources */,
 				FAF140AC1E20934C00F898D2 /* Versions.cpp in Sources */,
 				FA0B7A441A958EA3000E1D17 /* b2EdgeShape.cpp in Sources */,
 				FA0B79461A958E3B000E1D17 /* Vector.cpp in Sources */,
 				FAC7CD811FE35E95006A60C7 /* physfs_platform_os2.c in Sources */,
+				A77A100523AE66E7003D1C4B /* common.cpp in Sources */,
 				FA0B7DBB1A95902C000E1D17 /* Joystick.cpp in Sources */,
 				FAF140DB1E20934C00F898D2 /* InitializeDll.cpp in Sources */,
 				FA0B7DAE1A95902C000E1D17 /* wrap_CompressedImageData.cpp in Sources */,
 				FA6A2B701F5F845F0074C308 /* wrap_DataView.cpp in Sources */,
 				FA0B7A6E1A958EA3000E1D17 /* b2WorldCallbacks.cpp in Sources */,
+				A77A0FDF23AE66C3003D1C4B /* version.cpp in Sources */,
 				FA0B7A831A958EA3000E1D17 /* b2EdgeAndPolygonContact.cpp in Sources */,
 				FA0B7AA11A958EA3000E1D17 /* b2PulleyJoint.cpp in Sources */,
 				FAB17BE61ABFAA9000F9BA27 /* lz4.c in Sources */,
@@ -4753,6 +4880,7 @@
 				FA0B7DF11A95902C000E1D17 /* wrap_Cursor.cpp in Sources */,
 				FA0B7E001A95902C000E1D17 /* CircleShape.cpp in Sources */,
 				FA0B7E451A95902C000E1D17 /* wrap_Contact.cpp in Sources */,
+				A77A0FF923AE66E7003D1C4B /* view.cpp in Sources */,
 				217DFBE71D9F6D490055D849 /* inet.c in Sources */,
 				FA0B7D151A95902C000E1D17 /* Font.cpp in Sources */,
 				FA0B7EB51A95902C000E1D17 /* wrap_System.cpp in Sources */,
@@ -4813,8 +4941,10 @@
 				FA1557C31CE90BD200AFF582 /* EXRHandler.cpp in Sources */,
 				FA27B3AA1B498151008A9DCE /* VideoStream.cpp in Sources */,
 				FA0B7E571A95902C000E1D17 /* wrap_Joint.cpp in Sources */,
+				A77A0FDD23AE66C3003D1C4B /* http_apple.mm in Sources */,
 				FA0B7E301A95902C000E1D17 /* Shape.cpp in Sources */,
 				FA93C4541F315B960087CCD4 /* FormatHandler.cpp in Sources */,
+				A77A0FDB23AE66C3003D1C4B /* crypto_apple.cpp in Sources */,
 				FA0B7E481A95902C000E1D17 /* wrap_DistanceJoint.cpp in Sources */,
 				FA0B7A8F1A958EA3000E1D17 /* b2FrictionJoint.cpp in Sources */,
 				FA0B792F1A958E3B000E1D17 /* Module.cpp in Sources */,
@@ -4844,6 +4974,7 @@
 				FA620A321AA2F8DB005DB4C2 /* wrap_Quad.cpp in Sources */,
 				FA4F2BA61DE1E36400CA37D7 /* RecordingDevice.cpp in Sources */,
 				FAF1406C1E20934C00F898D2 /* InfoSink.cpp in Sources */,
+				A77A0FF523AE66E7003D1C4B /* crypto.cpp in Sources */,
 				FAF1407A1E20934C00F898D2 /* limits.cpp in Sources */,
 				FAC7CD7E1FE35E95006A60C7 /* physfs_archiver_mvl.c in Sources */,
 				FA0B793B1A958E3B000E1D17 /* runtime.cpp in Sources */,
@@ -4852,11 +4983,13 @@
 				FA0B7AD41A958EA3000E1D17 /* unix.c in Sources */,
 				FA0B7A771A958EA3000E1D17 /* b2CircleContact.cpp in Sources */,
 				FADF543B1E3DAFF700012CC0 /* wrap_Graphics.cpp in Sources */,
+				A77A0FFF23AE66E7003D1C4B /* data_writer.cpp in Sources */,
 				FA0B7D331A95902C000E1D17 /* Canvas.cpp in Sources */,
 				FA0B7E941A95902C000E1D17 /* Mpg123Decoder.cpp in Sources */,
 				FA0B7E8B1A95902C000E1D17 /* FLACDecoder.cpp in Sources */,
 				FA0B7B3A1A958EA3000E1D17 /* wuff_memory.c in Sources */,
 				FA0B7A381A958EA3000E1D17 /* b2DynamicTree.cpp in Sources */,
+				A77A0FFD23AE66E7003D1C4B /* version.cpp in Sources */,
 				FAECA1B21F3164700095D008 /* CompressedSlice.cpp in Sources */,
 				FA0B7D481A95902C000E1D17 /* Polyline.cpp in Sources */,
 				217DFC111D9F6D490055D849 /* usocket.c in Sources */,
@@ -4870,6 +5003,7 @@
 				FA0B7E751A95902C000E1D17 /* wrap_WeldJoint.cpp in Sources */,
 				FA0B7D551A95902C000E1D17 /* Buffer.cpp in Sources */,
 				FA57FB981AE1993600F2AD6D /* noise1234.cpp in Sources */,
+				A77A0FE523AE66C3003D1C4B /* crypto.cpp in Sources */,
 				FA0B7E211A95902C000E1D17 /* PolygonShape.cpp in Sources */,
 				FA0B7DA21A95902C000E1D17 /* PKMHandler.cpp in Sources */,
 				FA0B7ABA1A958EA3000E1D17 /* callbacks.c in Sources */,
@@ -4880,6 +5014,7 @@
 				FA28EBD51E352DB5003446F4 /* FenceSync.cpp in Sources */,
 				FA0B7E1B1A95902C000E1D17 /* MouseJoint.cpp in Sources */,
 				FA0B7CF41A95902C000E1D17 /* File.cpp in Sources */,
+				A77A0FE723AE66C3003D1C4B /* error.cpp in Sources */,
 				FAC7CD7A1FE35E95006A60C7 /* physfs_archiver_7z.c in Sources */,
 				FA0B7E331A95902C000E1D17 /* WeldJoint.cpp in Sources */,
 				FA0B7D301A95902C000E1D17 /* Graphics.cpp in Sources */,
@@ -4902,6 +5037,7 @@
 				FA0B7A861A958EA3000E1D17 /* b2PolygonAndCircleContact.cpp in Sources */,
 				FA0B7DB11A95902C000E1D17 /* wrap_Image.cpp in Sources */,
 				FAC7CD831FE35E95006A60C7 /* physfs_platform_windows.c in Sources */,
+				A77A0FFB23AE66E7003D1C4B /* scope_exit.cpp in Sources */,
 				FA0B7E881A95902C000E1D17 /* Decoder.cpp in Sources */,
 				FA0B7E3C1A95902C000E1D17 /* wrap_Body.cpp in Sources */,
 				FA0B7D791A95902C000E1D17 /* Quad.cpp in Sources */,
@@ -4917,6 +5053,7 @@
 				FA0B7ACD1A958EA3000E1D17 /* packet.c in Sources */,
 				FA0B7A921A958EA3000E1D17 /* b2GearJoint.cpp in Sources */,
 				FA0B7E5A1A95902C000E1D17 /* wrap_MotorJoint.cpp in Sources */,
+				A77A0FD923AE66C3003D1C4B /* stdio.cpp in Sources */,
 				FA0B7AA71A958EA3000E1D17 /* b2RopeJoint.cpp in Sources */,
 				FA0B7DD61A95902C000E1D17 /* MathModule.cpp in Sources */,
 				FA1BA0AC1E16F9EE00AA2803 /* wrap_Canvas.cpp in Sources */,
@@ -4931,6 +5068,7 @@
 				FA0B7A7D1A958EA3000E1D17 /* b2ContactSolver.cpp in Sources */,
 				FA0B7E601A95902C000E1D17 /* wrap_Physics.cpp in Sources */,
 				FA0B7DC71A95902C000E1D17 /* Keyboard.cpp in Sources */,
+				A77A0FE323AE66C3003D1C4B /* http_impl.cpp in Sources */,
 				217DFC071D9F6D490055D849 /* udp.c in Sources */,
 				FA0B7EAC1A95902C000E1D17 /* wrap_SoundData.cpp in Sources */,
 				FA0B7E2D1A95902C000E1D17 /* RopeJoint.cpp in Sources */,
@@ -4963,6 +5101,7 @@
 				FAA54ACC1F91660400A8FA7B /* TheoraVideoStream.cpp in Sources */,
 				FA1E887E1DF363CD00E808AA /* Filter.cpp in Sources */,
 				FA0B7D281A95902C000E1D17 /* wrap_GlyphData.cpp in Sources */,
+				A77A0FE123AE66C3003D1C4B /* http.cpp in Sources */,
 				FA0B7DE21A95902C000E1D17 /* wrap_RandomGenerator.cpp in Sources */,
 				FACA02F61F5E396B0084B28F /* wrap_DataModule.cpp in Sources */,
 				FA0B79401A958E3B000E1D17 /* utf8.cpp in Sources */,
@@ -4970,6 +5109,7 @@
 				FA0B7D0C1A95902C000E1D17 /* wrap_Filesystem.cpp in Sources */,
 				FA0B7AD91A958EA3000E1D17 /* glad.cpp in Sources */,
 				FAC7CD841FE35E95006A60C7 /* physfs_archiver_unpacked.c in Sources */,
+				A77A100123AE66E7003D1C4B /* http.cpp in Sources */,
 				217DFBF61D9F6D490055D849 /* options.c in Sources */,
 				FAA54ACD1F91660400A8FA7B /* OggDemuxer.cpp in Sources */,
 				FAC7CD821FE35E95006A60C7 /* physfs_platform_haiku.cpp in Sources */,
