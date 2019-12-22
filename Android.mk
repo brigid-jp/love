@@ -20,7 +20,9 @@ LOCAL_C_INCLUDES  :=  \
 	${LOCAL_PATH}/src/libraries/ \
 	${LOCAL_PATH}/src/libraries/enet/libenet/include \
 	${LOCAL_PATH}/src/libraries/physfs \
-	${LOCAL_PATH}/src/libraries/glslang/glslang/Include
+	${LOCAL_PATH}/src/libraries/glslang/glslang/Include \
+	${LOCAL_PATH}/src/libraries/brigid \
+	${LOCAL_PATH}/src/libraries/brigid/include
 
 LOCAL_SRC_FILES := \
 	$(filter-out \
@@ -94,7 +96,26 @@ LOCAL_SRC_FILES := \
   $(wildcard ${LOCAL_PATH}/src/libraries/physfs/*.c) \
 	$(wildcard ${LOCAL_PATH}/src/libraries/Wuff/*.c) \
   $(wildcard ${LOCAL_PATH}/src/libraries/xxHash/*.c) \
-  ))
+  )) \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/common_java.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/crypto.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/crypto_java.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/error.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/http.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/http_impl.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/http_java.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/stdio.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lib/version.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/common.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/crypto.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/data.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/data_writer.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/file_writer.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/http.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/module.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/scope_exit.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/version.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/view.cpp
 
 LOCAL_CXXFLAGS := -std=c++11
 LOCAL_SHARED_LIBRARIES := libopenal libmpg123 
