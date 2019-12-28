@@ -116,7 +116,8 @@ LOCAL_SRC_FILES := \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/module.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/scope_exit.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/version.cpp \
-	${LOCAL_PATH}/src/libraries/brigid/src/lua/view.cpp
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/view.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/zone.cpp
 
 LOCAL_CXXFLAGS := -std=c++11
 LOCAL_SHARED_LIBRARIES := libopenal libmpg123 
