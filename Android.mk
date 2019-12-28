@@ -107,10 +107,11 @@ LOCAL_SRC_FILES := \
 	${LOCAL_PATH}/src/libraries/brigid/src/lib/stdio.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lib/version.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/common.cpp \
-	${LOCAL_PATH}/src/libraries/brigid/src/lua/crypto.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/cryptor.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/data.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/data_writer.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/file_writer.cpp \
+	${LOCAL_PATH}/src/libraries/brigid/src/lua/hasher.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/http.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/module.cpp \
 	${LOCAL_PATH}/src/libraries/brigid/src/lua/scope_exit.cpp \
