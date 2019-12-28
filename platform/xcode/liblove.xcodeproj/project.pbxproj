@@ -82,8 +82,6 @@
 		A77A0FE823AE66C3003D1C4B /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FD823AE66C3003D1C4B /* error.cpp */; };
 		A77A0FF323AE66E7003D1C4B /* module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FE923AE66E6003D1C4B /* module.cpp */; };
 		A77A0FF423AE66E7003D1C4B /* module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FE923AE66E6003D1C4B /* module.cpp */; };
-		A77A0FF523AE66E7003D1C4B /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEA23AE66E6003D1C4B /* crypto.cpp */; };
-		A77A0FF623AE66E7003D1C4B /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEA23AE66E6003D1C4B /* crypto.cpp */; };
 		A77A0FF723AE66E7003D1C4B /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEB23AE66E6003D1C4B /* data.cpp */; };
 		A77A0FF823AE66E7003D1C4B /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEB23AE66E6003D1C4B /* data.cpp */; };
 		A77A0FF923AE66E7003D1C4B /* view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FEC23AE66E6003D1C4B /* view.cpp */; };
@@ -100,6 +98,12 @@
 		A77A100423AE66E7003D1C4B /* file_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF123AE66E7003D1C4B /* file_writer.cpp */; };
 		A77A100523AE66E7003D1C4B /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF223AE66E7003D1C4B /* common.cpp */; };
 		A77A100623AE66E7003D1C4B /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A0FF223AE66E7003D1C4B /* common.cpp */; };
+		A799E74523B4E9B600372FF7 /* zone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A799E74423B4E9B500372FF7 /* zone.cpp */; };
+		A799E74623B4E9B600372FF7 /* zone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A799E74423B4E9B500372FF7 /* zone.cpp */; };
+		A7A9AAD723B6F92A00816464 /* hasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7A9AAD523B6F92A00816464 /* hasher.cpp */; };
+		A7A9AAD823B6F92A00816464 /* hasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7A9AAD523B6F92A00816464 /* hasher.cpp */; };
+		A7A9AAD923B6F92A00816464 /* cryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7A9AAD623B6F92A00816464 /* cryptor.cpp */; };
+		A7A9AADA23B6F92A00816464 /* cryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7A9AAD623B6F92A00816464 /* cryptor.cpp */; };
 		FA0A3A5F23366CE9001C269E /* floattypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0A3A5D23366CE9001C269E /* floattypes.h */; };
 		FA0A3A6023366CE9001C269E /* floattypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0A3A5E23366CE9001C269E /* floattypes.cpp */; };
 		FA0A3A6123366CE9001C269E /* floattypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0A3A5E23366CE9001C269E /* floattypes.cpp */; };
@@ -1325,7 +1329,6 @@
 		A77A0FD723AE66C3003D1C4B /* crypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crypto.cpp; path = brigid/src/lib/crypto.cpp; sourceTree = "<group>"; };
 		A77A0FD823AE66C3003D1C4B /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = brigid/src/lib/error.cpp; sourceTree = "<group>"; };
 		A77A0FE923AE66E6003D1C4B /* module.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = module.cpp; path = brigid/src/lua/module.cpp; sourceTree = "<group>"; };
-		A77A0FEA23AE66E6003D1C4B /* crypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crypto.cpp; path = brigid/src/lua/crypto.cpp; sourceTree = "<group>"; };
 		A77A0FEB23AE66E6003D1C4B /* data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = data.cpp; path = brigid/src/lua/data.cpp; sourceTree = "<group>"; };
 		A77A0FEC23AE66E6003D1C4B /* view.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = view.cpp; path = brigid/src/lua/view.cpp; sourceTree = "<group>"; };
 		A77A0FED23AE66E6003D1C4B /* scope_exit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scope_exit.cpp; path = brigid/src/lua/scope_exit.cpp; sourceTree = "<group>"; };
@@ -1334,6 +1337,9 @@
 		A77A0FF023AE66E7003D1C4B /* http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = http.cpp; path = brigid/src/lua/http.cpp; sourceTree = "<group>"; };
 		A77A0FF123AE66E7003D1C4B /* file_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = file_writer.cpp; path = brigid/src/lua/file_writer.cpp; sourceTree = "<group>"; };
 		A77A0FF223AE66E7003D1C4B /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = common.cpp; path = brigid/src/lua/common.cpp; sourceTree = "<group>"; };
+		A799E74423B4E9B500372FF7 /* zone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zone.cpp; path = brigid/src/lua/zone.cpp; sourceTree = "<group>"; };
+		A7A9AAD523B6F92A00816464 /* hasher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hasher.cpp; path = brigid/src/lua/hasher.cpp; sourceTree = "<group>"; };
+		A7A9AAD623B6F92A00816464 /* cryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cryptor.cpp; path = brigid/src/lua/cryptor.cpp; sourceTree = "<group>"; };
 		FA08F5AE16C7525600F007B5 /* liblove-macosx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "liblove-macosx.plist"; path = "macosx/liblove-macosx.plist"; sourceTree = "<group>"; };
 		FA0A3A5D23366CE9001C269E /* floattypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floattypes.h; sourceTree = "<group>"; };
 		FA0A3A5E23366CE9001C269E /* floattypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = floattypes.cpp; sourceTree = "<group>"; };
@@ -2228,15 +2234,17 @@
 			isa = PBXGroup;
 			children = (
 				A77A0FF223AE66E7003D1C4B /* common.cpp */,
-				A77A0FEA23AE66E6003D1C4B /* crypto.cpp */,
+				A7A9AAD623B6F92A00816464 /* cryptor.cpp */,
 				A77A0FEF23AE66E6003D1C4B /* data_writer.cpp */,
 				A77A0FEB23AE66E6003D1C4B /* data.cpp */,
 				A77A0FF123AE66E7003D1C4B /* file_writer.cpp */,
+				A7A9AAD523B6F92A00816464 /* hasher.cpp */,
 				A77A0FF023AE66E7003D1C4B /* http.cpp */,
 				A77A0FE923AE66E6003D1C4B /* module.cpp */,
 				A77A0FED23AE66E6003D1C4B /* scope_exit.cpp */,
 				A77A0FEE23AE66E6003D1C4B /* version.cpp */,
 				A77A0FEC23AE66E6003D1C4B /* view.cpp */,
+				A799E74423B4E9B500372FF7 /* zone.cpp */,
 			);
 			name = lua;
 			sourceTree = "<group>";
@@ -4360,6 +4368,7 @@
 				FA24348521D401CB00B8918A /* pch.cpp in Sources */,
 				FA0B7DEC1A95902C000E1D17 /* Cursor.cpp in Sources */,
 				FA0B7D871A95902C000E1D17 /* ImageData.cpp in Sources */,
+				A7A9AADA23B6F92A00816464 /* cryptor.cpp in Sources */,
 				A77A100423AE66E7003D1C4B /* file_writer.cpp in Sources */,
 				FA0B7E101A95902C000E1D17 /* FrictionJoint.cpp in Sources */,
 				FAF140741E20934C00F898D2 /* intermOut.cpp in Sources */,
@@ -4409,6 +4418,7 @@
 				FA0B7E0D1A95902C000E1D17 /* Fixture.cpp in Sources */,
 				FADF53FE1E3D74F200012CC0 /* Text.cpp in Sources */,
 				FA0B7D191A95902C000E1D17 /* TrueTypeRasterizer.cpp in Sources */,
+				A799E74623B4E9B600372FF7 /* zone.cpp in Sources */,
 				FA0B7CFB1A95902C000E1D17 /* Filesystem.cpp in Sources */,
 				FA0B7D3D1A95902C000E1D17 /* Image.cpp in Sources */,
 				FA0B7B351A958EA3000E1D17 /* wuff_convert.c in Sources */,
@@ -4559,13 +4569,13 @@
 				FA4F2C0C1DE936ED00CA37D7 /* select.c in Sources */,
 				FA0B7D8E1A95902C000E1D17 /* ddsHandler.cpp in Sources */,
 				FA0B7DFE1A95902C000E1D17 /* ChainShape.cpp in Sources */,
+				A7A9AAD823B6F92A00816464 /* hasher.cpp in Sources */,
 				FAE64A892071363100BC7981 /* physfs_archiver_vdf.c in Sources */,
 				FA0B7A451A958EA3000E1D17 /* b2EdgeShape.cpp in Sources */,
 				FA15DFB21F9B8D840042AB22 /* TheoraVideoStream.cpp in Sources */,
 				FAF1406D1E20934C00F898D2 /* InfoSink.cpp in Sources */,
 				FAF1407B1E20934C00F898D2 /* limits.cpp in Sources */,
 				FA0B7ABB1A958EA3000E1D17 /* callbacks.c in Sources */,
-				A77A0FF623AE66E7003D1C4B /* crypto.cpp in Sources */,
 				FA0B7A721A958EA3000E1D17 /* b2ChainAndCircleContact.cpp in Sources */,
 				FA0B7EAA1A95902C000E1D17 /* wrap_Sound.cpp in Sources */,
 				FA0B79391A958E3B000E1D17 /* Reference.cpp in Sources */,
@@ -4769,6 +4779,7 @@
 				FA24348421D401CB00B8918A /* pch.cpp in Sources */,
 				FA0B7E3F1A95902C000E1D17 /* wrap_ChainShape.cpp in Sources */,
 				FA0B7DEB1A95902C000E1D17 /* Cursor.cpp in Sources */,
+				A7A9AAD923B6F92A00816464 /* cryptor.cpp in Sources */,
 				A77A100323AE66E7003D1C4B /* file_writer.cpp in Sources */,
 				FA0B7D861A95902C000E1D17 /* ImageData.cpp in Sources */,
 				FA0B7A3E1A958EA3000E1D17 /* b2ChainShape.cpp in Sources */,
@@ -4818,6 +4829,7 @@
 				FAC7CD781FE35E95006A60C7 /* physfs_platform_qnx.c in Sources */,
 				FA0B7D3C1A95902C000E1D17 /* Image.cpp in Sources */,
 				FA0B7A8C1A958EA3000E1D17 /* b2DistanceJoint.cpp in Sources */,
+				A799E74523B4E9B600372FF7 /* zone.cpp in Sources */,
 				FADF53FD1E3D74F200012CC0 /* Text.cpp in Sources */,
 				FA6A2B741F60B6710074C308 /* ByteData.cpp in Sources */,
 				217DFBE91D9F6D490055D849 /* io.c in Sources */,
@@ -4968,13 +4980,13 @@
 				FA0B7A4B1A958EA3000E1D17 /* b2BlockAllocator.cpp in Sources */,
 				FA0B7A551A958EA3000E1D17 /* b2Settings.cpp in Sources */,
 				FA0B7EA91A95902C000E1D17 /* wrap_Sound.cpp in Sources */,
+				A7A9AAD723B6F92A00816464 /* hasher.cpp in Sources */,
 				FA0B7A981A958EA3000E1D17 /* b2MotorJoint.cpp in Sources */,
 				FA6A2B671F5F7B6B0074C308 /* wrap_Data.cpp in Sources */,
 				FA0B7E061A95902C000E1D17 /* DistanceJoint.cpp in Sources */,
 				FA620A321AA2F8DB005DB4C2 /* wrap_Quad.cpp in Sources */,
 				FA4F2BA61DE1E36400CA37D7 /* RecordingDevice.cpp in Sources */,
 				FAF1406C1E20934C00F898D2 /* InfoSink.cpp in Sources */,
-				A77A0FF523AE66E7003D1C4B /* crypto.cpp in Sources */,
 				FAF1407A1E20934C00F898D2 /* limits.cpp in Sources */,
 				FAC7CD7E1FE35E95006A60C7 /* physfs_archiver_mvl.c in Sources */,
 				FA0B793B1A958E3B000E1D17 /* runtime.cpp in Sources */,
